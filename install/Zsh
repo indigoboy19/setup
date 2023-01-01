@@ -1,5 +1,5 @@
 #!/bin/sh
-source "../Variables"
+source "../.profile"
 zshbin=$BIN/zsh
 # Folders
 mkdir $XDG_CACHE_HOME/zsh

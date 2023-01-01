@@ -1,5 +1,4 @@
 #!/bin/sh
-source "../Variables"
 cd $BIN
 sudo dnf install qt5-qtbase
 https://files.multimc.org/downloads/mmc-stable-lin64.tar.gz

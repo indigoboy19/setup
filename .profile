@@ -1,6 +1,5 @@
 #!/bin/sh
 ## Paths
-HOME=~
 REPOSITORIES=$HOME/repositories
 BIN=$HOME/.local/bin
 XDG_CACHE_HOME=$HOME/.cache
