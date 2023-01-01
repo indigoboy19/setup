@@ -1,7 +1,6 @@
 #!/bin/sh
+## Paths
 home=~
 repositories=$home/repositories
 bin=$home/.local/bin
 config=$home/.config
-distro="fedora"
-packageManager="fedora"
