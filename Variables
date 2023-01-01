@@ -3,4 +3,5 @@
 home=~
 repositories=$home/repositories
 bin=$home/.local/bin
+cache=$home/.cache
 config=$home/.config
