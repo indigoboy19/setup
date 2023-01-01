@@ -1,0 +1,11 @@
+#!/bin/sh
+source "../Variables"
+zshbin=$BIN/zsh
+# Folders
+mkdir $XDG_CACHE_HOME/zsh
+mkdir $zshbin
+# Plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $zshbin/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $zshbin/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-history-substring-search.git $zshbin/zsh-history-substring-search
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $zshbin/zsh-you-should-use

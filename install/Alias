@@ -1,0 +1,23 @@
+alias la="exa -A1 --group-directories-first --color=auto"
+alias ll="exa -l --color=auto"
+alias lla="exa -lAh --group-directories-first --color=auto"
+alias l.="exa -Ad --group-directories-first --color=auto .*"
+
+alias cat='bat --theme=Nord'
+
+alias dce="docker-compose exec"
+alias dcr="docker-compose restart"
+alias dcu="docker-compose up"
+alias dcupd="docker-compose up -d"
+alias dcdn="docker-compose down"
+
+alias g="git"
+alias gb="git branch"
+alias gp="git push"
+alias gl="git pull"
+alias gf="git fetch"
+alias ga="git add"
+alias gaa="git add all"
+alias gck="git checkout"
+alias gckb="git checkout -b"
+alias gckm="git checkout master"
