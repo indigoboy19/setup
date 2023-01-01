@@ -1,7 +1,7 @@
 #!/bin/sh
 ## Paths
-REPOSITORIES=$HOME/repositories
-BIN=$HOME/.local/bin
-XDG_CACHE_HOME=$HOME/.cache
-XDG_CONFIG_HOME=$HOME/.config
-XDG_DATA_HOME=$HOME/.local/share
+export REPOSITORIES=$HOME/repositories
+export BIN=$HOME/.local/bin
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_DATA_HOME=$HOME/.local/share
