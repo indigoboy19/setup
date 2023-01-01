@@ -1,5 +1,5 @@
 #!/bin/sh
 source "../Variables"
-mkdir $repositories
-mkdir $bin
-mkdir $cache
+mkdir $REPOSITORIES
+mkdir $BIN
+mkdir $XDG_CACHE_HOME
