@@ -2,3 +2,6 @@
 cd $BIN
 curl -fL https://github.com/coursier/launchers/raw/master/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
 cd $HOME
+mkdir "$XDG_DATA_HOME"/sbt
+mkdir "$XDG_DATA_HOME"/ivy2
+sbt -ivy "$XDG_DATA_HOME"/ivy2 -sbt-dir "$XDG_DATA_HOME"/sbt
