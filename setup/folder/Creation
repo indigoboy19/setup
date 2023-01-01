@@ -1,0 +1,4 @@
+#!/bin/sh
+source "../Variables"
+mkdir $repositories
+mkdir $bin

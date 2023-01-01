@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo dnf install exa vim htop bat alacritty rofi
